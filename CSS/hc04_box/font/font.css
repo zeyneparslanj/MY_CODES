@@ -1,0 +1,31 @@
+@import url(
+  font-family:"Lobster",
+  cursive;font-family:"Sedgwick Ave",
+  cursive;font-family:"Sedgwick Ave Display",
+  cursive;
+);
+
+.font1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+
+.font2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+}
+
+.font3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.font4 {
+  font-family: "Lobster", cursive;
+  font-family: "harvey";
+}
+
+@font-face {
+  font-family: "harvey";
+  src: url();
+}

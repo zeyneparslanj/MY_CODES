@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+.container {
+  font-size: 8%;
+}
+
+#par1 {
+  text-align: center;
+  color: blue;
+  text-shadow: 2px 2px red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  column-count: 3;
+  column-rule: 3px double blue;
+  -moz-column-count: 3px double blue;
+  font-size: 1rem;
+}
+
+#par2 {
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  direction: rtl;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#par3 {
+  text-align: center;
+  color: rgb(120, 45, 97);
+  text-decoration: underline;
+}
+
+#par4 {
+  color: rgba(10, 10, 125, 0.559);
+  text-decoration: line-through wavy;
+}
+
+#par5 {
+  color: fuchsia;
+  text-decoration: overline line-through wavy;
+}
+
+#par6 {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-indent: 1rem;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  direction: rtl;
+  /* yazıyı ters döndürmek mülakat sorusu */
+  unicode-bidi: bidi-override;
+}
