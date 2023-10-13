@@ -2,7 +2,7 @@
 // *             FOR LOOP
 // * =======================================================
 
-console.log(" **** FOR ****")
+console.log(" **** FOR ****");
 
 // for (let i = 1; i <= 10; i++) {
 //   console.log(i) //? 12345678910
@@ -29,16 +29,16 @@ console.log(" **** FOR ****")
 
 //? 10 9876543210
 for (let i = 10; i >= 0; i--) {
-  console.log(i)
+  console.log(i);
 }
 
 //? 0-100 Arasinda n adet rasgele tamsayi sayi ureten kodu for dongusu ile yaziniz..
 
-const n = +prompt("Kac adet rasgele sayi uretmek istersiniz?")
+const n = +prompt("Kac adet rasgele sayi uretmek istersiniz?");
 
 for (let i = 1; i <= n; i++) {
-  const randomSayi = Math.round(Math.random() * 100)
-  console.log(`${i}. rasgele sayi : ${randomSayi}`)
+  const randomSayi = Math.round(Math.random() * 100);
+  console.log(`${i}. rasgele sayi : ${randomSayi}`);
 }
 
 // 2 aralikta verilen dogal sayilarin toplamini bulan kodu for dongusu ile yaziniz.
@@ -52,16 +52,29 @@ for (let i = 1; i <= n; i++) {
 // }
 // console.log(toplam)
 
-let n1 = 15
-let n2 = 25
-let toplam = 0
+let n1 = 15;
+let n2 = 25;
+let toplam = 0;
 
 if (n1 >= n2) {
-  console.log("Lütfen 1. sayiyi daha büyük giriniz")
+  console.log("Lütfen 1. sayiyi daha büyük giriniz");
 } else {
   for (n1; n1 <= n2; n1++) {
-    toplam += n1
+    toplam += n1;
   }
 
-  console.log(toplam)
+  console.log(toplam);
+}
+
+//?break, continue
+for (let i = 0; i <= 10; i++) {
+  if (i <= 5) {
+    continue;
+  }
+
+  if (i === 8) {
+    break;
+  }
+
+  console.log(i);
 }
