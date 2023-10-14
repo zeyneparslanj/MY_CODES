@@ -126,6 +126,7 @@ select {
 }
 
 .furniture {
+  margin-top:1rem;
   background-image: url(./images/stock.jpg);
   display: flex;
   justify-content: space-around;
@@ -150,7 +151,6 @@ select {
   padding: 1.2rem;
   font-style: italic;
   font-size: 2rem;
-
 }
 
 .lightning {
@@ -168,9 +168,151 @@ select {
 }
 
 .lightning-text {
-  /* margin-bottom: -1rem; */
   width: 80%;
   float: right;
   padding: 2rem;
   margin-bottom: -10rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  CATEGORY                                  */
+/* -------------------------------------------------------------------------- */
+.categorySection {
+  background-color: #aeaeae;
+}
+
+.category-part,
+.product-part {
+  padding: 2rem;
+}
+.browseProduct,
+.browseCategory {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.categories,
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.part {
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem 2px 1rem 1rem;
+  background-color: rgba(238, 236, 236, 0.86);
+  border-radius: 10px;
+  box-shadow: 2px 2px 50px black;
+  margin: 1rem;
+}
+
+.part img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  padding: 1rem 0.625rem 1rem 1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   PRODUCT                                  */
+/* -------------------------------------------------------------------------- */
+.productSection {
+  background-color: #EEECEC
+}
+
+.product {
+  width: 20rem;
+  height: 20rem;
+  background-color: #d9d9d9;
+  margin:1rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 50px black;
+  text-align: center;
+
+
+}
+
+.product img {
+  width: 100%;
+  height: 90%;
+  border-radius:10px ;
+  object-fit: cover;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   CONTACT                                  */
+/* -------------------------------------------------------------------------- */
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #AEA08D;
+  padding:2rem;
+}
+
+.expert{
+  flex:1;
+  padding:2rem;
+  font-family: "Bellota",cursive;  
+}
+.lookForExpert{
+  font-size:2rem;
+  line-height: 1.5;
+
+}
+span{
+    color:#f37705;
+}
+
+.leaveInfo{
+  font-family:"Judson",serif;
+}
+
+/* Form */
+.formSection{
+  font-size: 1.5rem;
+}
+
+.formSection input{
+  width: 100%;
+  border:none;
+  outline:none;
+  background-color: rgba(0,0,0,0);
+  border-bottom:1px solid black;
+  padding:.5rem 0;
+  font-size:1rem;
+}
+.formElement{
+  margin:1.5rem 1rem;
+}
+
+button{
+  height: 40px;
+  width: 15rem;
+  
+  background-color: #ffc868;
+  border:none;
+  font-family:"judson";
+  font-size:20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  padding:2rem;
+  flex-wrap:wrap;
+}
+.policy{
+  display:flex ;
+  justify-content: space-around;
+  gap:1rem;
+}
+.policy a{
+  text-decoration: none;
+  color:inherit;
+  border-bottom:1px solid black;
 }
