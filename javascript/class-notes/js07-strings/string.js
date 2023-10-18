@@ -122,7 +122,8 @@ console.log("Nasılsın ",metin2," kursuna kayıt yaptınmı" , metin1);
 
 /* -------------------------------------------------------------------------- */
 /*                              Template Literal                              */
-/* -------------------------------------------------------------------------- */// ECMAScript 6 (ES6) ile gelen template literals, stringleri daha okunaklı bir şekilde birleştirmenize olanak tanır.
+/* -------------------------------------------------------------------------- *//
+/// ECMAScript 6 (ES6) ile gelen template literals, stringleri daha okunaklı bir şekilde birleştirmenize olanak tanır.
 
 const ad="Sema"
 const soyad="Güven"
@@ -357,3 +358,6 @@ console.log(sentence1.trimEnd());
 metin="Clarusway"
 console.log(metin.toUpperCase().startsWith("C"));
 console.log(email.toUpperCase().endsWith("COM"));
+
+
+
