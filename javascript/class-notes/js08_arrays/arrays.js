@@ -153,7 +153,7 @@ console.log(veriler);
 veriler = [];
 console.log(veriler);
 
-console.clear();
+
 
 // Ülke dizisinde, dizide 'Etiyopya' olup olmadığını kontrol edin, eğer varsa 'ETHIOPIA' yazdırın. Eğer mevcut değilse, ülkeler listesine ekleyin.
 
@@ -179,5 +179,3 @@ countries.includes("Ethiopia")
   ? console.log(countries.splice(countries.indexOf("Ethiopia"), 1, "ETHİOPİA"))
   : countries.push("Ethiopia");
 console.log(countries);
-
-Runner.prototype.gameOver = function () {}
